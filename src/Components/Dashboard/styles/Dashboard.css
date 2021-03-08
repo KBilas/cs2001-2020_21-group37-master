@@ -1,0 +1,22 @@
+.Main-Dashboard {
+    color: black;
+}
+
+#root {
+    background-color: rgba (225, 223, 221, 0.2);
+}
+
+
+.ms-Grid-col {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.content .card{
+text-align: center;
+position: relative;
+left: 70px;
+}
+.content{
+    height: 1700px;
+}

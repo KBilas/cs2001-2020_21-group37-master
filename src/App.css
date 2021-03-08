@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 12vh;
+    color: white;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+div.MainBody {
+    height: 10em;
+    position: relative }
+div.MainBody p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+:root{
+        --mainDark: #343a40;
+        --mainGrey: rgba(109,109,109);
+        --mainLightGrey: rgba(172,172,172);
+        --mainWhite: #fff;
+        --mainBlue: #007bff;
+    }
